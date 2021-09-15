@@ -1,0 +1,38 @@
+table {
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 12px 14px 15px #e4e4e4;
+}
+.text-center
+{
+text-align:center;
+}
+.container
+{
+  width:800px;
+  margin:auto;
+  justify-content:center;
+  align-items:center;
+}
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th, tfoot td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #111211;
+  color: white;
+}
